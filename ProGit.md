@@ -24,7 +24,27 @@ git clone https://github.com/libgit2/libgit2
 【已提交未修改】modify【已修改】
 
 - git add 【已暂存】
-- git checkout 【已提交未修改】
-- 
+- git checkout / git restore 【已提交未修改】
 
 【已提交未修改】remove【未跟踪】
+
+## 查看文件状态
+
+git status
+
+## 跟踪新文件（将文件添加到下次提交中）
+
+git add
+
+## 忽略文件
+
+.gitignore
+
+## 提交更新
+
+git commit
+
+## 移除文件（不再跟踪文件）
+
+git rm
+
