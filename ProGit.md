@@ -48,3 +48,45 @@ git commit
 
 git rm
 
+## 查看提交历史
+
+git log
+
+## 撤销操作
+
+git commit --amend
+
+## 取消暂存文件
+
+git reset HEAD
+
+git restore
+
+## 撤销对文件的修改
+
+git checkout
+
+git restore
+
+## 查看远程仓库
+
+git remote -v
+
+## 添加远程仓库
+
+git remote add https://github.com/paulboone/ticgit 
+
+## 从远程仓库抓取
+
+git fetch
+
+## 从远程仓库拉取（抓取并尝试自动合并）
+
+git pull
+
+
+
+
+
+
+
