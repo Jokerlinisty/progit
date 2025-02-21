@@ -72,6 +72,8 @@ git restore
 
 git remote -v
 
+git remote show origin
+
 ## 添加远程仓库
 
 git remote add https://github.com/paulboone/ticgit 
@@ -83,3 +85,22 @@ git fetch
 ## 从远程仓库拉取（抓取并尝试自动合并）
 
 git pull
+
+## 推送到远程仓库
+
+git push
+
+## 打标签
+
+git tag -a v1.0 -m '1.0'
+
+## 删除标签
+
+git tag -d v1.0
+
+## 推送标签
+
+git push origin --tags
+
+
+
