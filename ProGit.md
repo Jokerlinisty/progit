@@ -13,7 +13,7 @@ git clone https://github.com/libgit2/libgit2
 - 已跟踪：已纳入git版本管理
 - 未跟踪：未纳入git版本管理
 
-## Git文件状态转换
+## Git文件状态流转
 
 【未跟踪】 git add【已暂存】 
 
@@ -25,6 +25,5 @@ git clone https://github.com/libgit2/libgit2
 
 - git add 【已暂存】
 - git checkout 【已提交未修改】
-- 
 
 【已提交未修改】remove【未跟踪】
