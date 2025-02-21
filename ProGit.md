@@ -1,0 +1,30 @@
+# 第一章 Git基础
+
+## Git项目初始化 
+
+git init
+
+## 克隆现有仓库 
+
+git clone https://github.com/libgit2/libgit2
+
+## Git文件状态
+
+- 已跟踪：已纳入git版本管理
+- 未跟踪：未纳入git版本管理
+
+## Git文件状态转换
+
+【未跟踪】 git add【已暂存】 
+
+- git reset head / git restore --staged【未跟踪】
+
+- git commit 【已提交未修改】
+
+【已提交未修改】modify【已修改】
+
+- git add 【已暂存】
+- git checkout 【已提交未修改】
+- 
+
+【已提交未修改】remove【未跟踪】
