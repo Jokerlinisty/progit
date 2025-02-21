@@ -13,7 +13,7 @@ git clone https://github.com/libgit2/libgit2
 - 已跟踪：已纳入git版本管理
 - 未跟踪：未纳入git版本管理
 
-## Git文件状态转换
+## Git文件状态流转
 
 【未跟踪】 git add【已暂存】 
 
@@ -83,10 +83,3 @@ git fetch
 ## 从远程仓库拉取（抓取并尝试自动合并）
 
 git pull
-
-
-
-
-
-
-
