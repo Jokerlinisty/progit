@@ -86,6 +86,10 @@ git remote add https://github.com/paulboone/ticgit
 
 git fetch
 
+git fetch 实际上将本地仓库中的远程分支更新成了远程仓库相应分支最新的状态
+
+git fetch 并不会改变你本地仓库的状态。它不会更新你的 `main` 分支，也不会修改你磁盘上的文件
+
 ## 从远程仓库拉取（抓取+合并）
 
 git pull = git fetch + git merge
@@ -150,6 +154,14 @@ git merge 分支名称
 
 三方合并后，Git会创建一个新的提交对象（合并提交），此时当前提交对象有两个父提交对象
 
+## 合并方式
+
+当远程分支中有新的提交时，你可以像合并本地分支那样来合并远程分支
+
+- git merge origin/main
+- git rebase origin/main
+- git cherry-pick origin/main
+
 ## 分支开发工作流
 
 ## 主分支
@@ -201,7 +213,9 @@ Git整合不同分支有两种方式：合并（merge）和变基（rebase）
 总的原则是，只对尚未推送或分享给别人的本地修改执行变基操作清理历史，从不对已推送至别处的提交执行变
 基操作  
 
+# 第三章 服务器上的Git
 
+# 第四章 分布式Git
 
 
 
